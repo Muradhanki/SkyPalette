@@ -1,5 +1,7 @@
 import React from "react"
 import Navbar from "./components/Navbar"
+import Body from './components/Body'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -7,8 +9,10 @@ function App() {
 
   return (
 
-    <div>
+    <div className="container">
       <Navbar />
+      <Body />
+      <Footer />
 
     </div>
 
