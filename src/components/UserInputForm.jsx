@@ -30,6 +30,7 @@ Start Date:
         <button type="submit">Submit</button>
             </form>
     </div>
-)
+);
+};
 
-}
+export default HolidayPlanner;
