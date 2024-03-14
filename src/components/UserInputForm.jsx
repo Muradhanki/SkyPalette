@@ -15,4 +15,21 @@ const handleSubmit = sync (event) =>  {
     // Display results to the user
 };
 
+return (
+    <div>
+        <form onSubmit={handleSubmit}>
+            <label>
+Start Date:
+<input type="date" value={datesOfTravel.startDate} onChange={(e) => setDatesOfTravel({ ...datesOfTravel, startDate: e.target.value })} />
+            </label>
+            <label>
+                End Date:
+               <input type="date" value="{datesOfTravel.endDate}" onChange={(e) => setDatesOfTravel({ ...datesOfTravel, endDate: e.target.value })}/>
+            </label>
+            {/* Add more input fields for climate preference and activities */}
+        <button type="submit">Submit</button>
+            </form>
+    </div>
+)
+
 }
