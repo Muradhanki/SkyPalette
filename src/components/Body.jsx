@@ -1,4 +1,5 @@
 import React from 'react'
+import UserInputForm from './UserInputForm'
 
 function Body() {
   return (
