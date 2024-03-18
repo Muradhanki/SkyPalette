@@ -175,7 +175,6 @@
 // };
 
 // export default UserInputForm;
-
 import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
@@ -191,20 +190,46 @@ const UserInputForm = () => {
 
   const navigate = useNavigate(); // Use the useNavigate hook
 
+    // Updated mapping with more activities
+    const activityToKindMap = {
+      "Hiking": "nature_reserves",
+      "Sightseeing": "cultural",
+      "Beaches": "beaches",
+      "Museums": "museums",
+      "Parks and Gardens": "gardens_and_parks",
+      "Historical Sites": "historic",
+      "Water Sports": "diving",
+      "Skiing": "winter_sports",
+      "Urban Exploration": "urban_environment",
+      "Wildlife Observation": "wildlife_reserves",
+      "Archaeological Sites": "archaeology",
+      "Castles and Fortifications": "fortifications",
+      "Religious Sites": "religion",
+      "Modern Architecture": "architecture",
+      "Amusement Parks": "amusement_parks",
+      "Adventure Sports": "climbing",
+      "Surfing": "surfing",
+      "Casinos": "casino",
+      "Nightlife": "nightclubs",
+      "Wine Tasting": "wineries",
+      "Shopping": "shops",
+      "Gastronomy": "foods",
+      "Camping": "campsites",
+      "Luxury Stays": "resorts",
+      "Hostels": "hostels",
+      "Cultural Exhibitions": "theatres_and_entertainments",
+      "Aquatic Adventures": "water_parks",
+      "Nature Reserves": "nature_reserves_others",
+      // Add more as needed based on your application's scope
+    };
 
-  // Mapping user activities to API kinds
-  const activityToKindMap = {
-    hiking: 'nature_reserves', // Example mapping, adjust based on actual options
-    skiing: 'winter_sports',
-    swimming: 'beaches',
-    sightseeing: 'museums',
-    relaxing: 'parks_gardens'
-  };
+
 
   const mapUserActivityToKind = (activity) => {
-    return activityToKindMap[activity] || '';
+    // Find the kind based on the selected activity
+    const kind = Object.keys(activityToKindMap).find(key => key.toLowerCase() === activity.toLowerCase());
+    return activityToKindMap[kind] || '';
   };
-
 
 
   const handleSubmit = async (event) => {
@@ -222,18 +247,18 @@ const UserInputForm = () => {
 
         // Example API call (adjust according to actual API and parameters)
         const API_KEY = '5ae2e3f221c38a28845f05b6bae24c710f5c700ecb82ce6c74e24106';
+        
         try {
           const response = await axios.get(`https://api.opentripmap.com/0.1/en/places/radius`, {
             params: {
               radius: 100000, // Adjust as necessary
               lon: 12.4924, // Example longitude, adjust as necessary
               lat: 41.8902, // Example latitude, adjust as necessary
-              // kinds: activity.toLowerCase(), // Adjust as necessary
               kinds: kind,
               apikey: API_KEY,
             }
           });
-
+    
 
      // If successful, navigate to Results page with fetched destinations
       navigate('/results', { state: { destinations: response.data.features } });
@@ -274,18 +299,18 @@ const UserInputForm = () => {
           </select>
         </div>
 
-        {/* Activities */}
-        <div className="mb-3">
+
+               {/* Activities - Updated to use the keys from activityToKindMap */}
+               <div className="mb-3">
           <label htmlFor="activity" className="form-label">Activities:</label>
           <select className="form-select" value={activity} onChange={e => setActivity(e.target.value)} id="activity">
             <option value="">Select an activity...</option>
-            <option value="hiking">Hiking</option>
-            <option value="skiing">Skiing</option>
-            <option value="swimming">Swimming</option>
-            <option value="sightseeing">Sightseeing</option>
-            <option value="relaxing">Relaxing</option>
+            {Object.keys(activityToKindMap).map(act => (
+              <option key={act} value={act}>{act}</option>
+            ))}
           </select>
         </div>
+
 
         {/* Submit Button */}
         <div className="d-grid gap-2">
@@ -297,7 +322,3 @@ const UserInputForm = () => {
 };
 
 export default UserInputForm;
-
-
-
-
