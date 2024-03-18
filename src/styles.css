@@ -41,98 +41,142 @@ nav {
 /* NEW natt5 */
 
 
+
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: url('./assets/images/airplane.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; 
-    margin: 0; 
-    height: 100%; 
-  }
+  background-image: url('./assets/images/airplane.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  margin: 0; 
+  height: 100%; 
+}
 
 nav {
-    display: flex;
-    height: 100px;
-    margin-top: 20px;
-    padding: 50px 50px;
+  display: flex;
+  height: 100px;
+  margin-top: 20px;
+  padding: 50px 50px;
 }
 
 .nav--title {
- }
-
-.nav--icon {
-    height: 420px;
-    margin-top: 70px;
 }
 
-  .text-orange {
-    color: orange;
-  }
+.nav--icon {
+  height: 420px;
+  margin-top: 70px;
+}
 
-    /* Footer social media icons styling */
+.text-orange {
+  color: orange;
+}
 
+/* Footer social media icons styling */
 .footer-icon {
-  color: orange; /* Default color */
+color: orange; /* Default color */
 }
 
 .footer-icon:hover,
 .footer-icon:focus,
 .footer-icon:active {
-  color: purple !important; /* Color change on hover, focus, and active (click) */
+color: purple !important; /* Color change on hover, focus, and active (click) */
 }
 
-  .navbar {
-    
-  }
- 
-  .nav-link {
-    color: purple !important;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px !important;
-    margin-top: 25px;
+
+.navbar {
+  
+}
+
+.nav-link {
+  color: purple !important;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px !important;
+  margin-top: 25px;
 
 }
 
-  .btn-custom {
-    background-color: orange !important; 
-    color: purple !important; 
-    border-color: orange !important;
+.btn-custom {
+  background-color: orange !important; 
+  color: purple !important; 
+  border-color: orange !important;
 }
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom:active {
-    background-color: purple !important; 
-    color: orange !important;
-    border-color: purple !important;
+  background-color: purple !important; 
+  color: orange !important;
+  border-color: purple !important;
 }
 
 .form-container {
-    background-color: white;
-    padding: 20px; 
-    border-radius: 8px; 
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  }
-
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 
 /* Date picker styling */
 
 .react-datepicker-wrapper,
 .react-datepicker__input-container {
-  width: 100%;
+width: 100%;
 }
 
 .form-control,
 .form-select,
 .react-datepicker__input-container input {
-  width: 100%;
-  padding: 0.375rem 0.75rem; 
-  font-size: 1rem;
-  line-height: 1.5; 
-  border-radius: 0.25rem; 
+width: 100%;
+padding: 0.375rem 0.75rem; 
+font-size: 1rem;
+line-height: 1.5; 
+border-radius: 0.25rem; 
 }
 
+/* results page styling*/
 
+.title-color, .section-title {
+text-align: center;
+color: purple;
+}
 
+.destination-name-color {
+color: orange;
+margin-bottom: 30px;
+}
+
+.secondary-title-color {
+text-align: center;
+color: purple;
+margin-bottom: 30px;
+}
+
+.results-container {
+background-color: rgba(255, 255, 255, 0.6);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+margin: 50px;
+width: 90%; /* Adjust the width as needed */
+max-width: 500px;
+}
+
+.destination-container {
+margin-bottom: 30px; /* Adjust the spacing as needed */
+}
+
+/* itinerary page styling */
+
+.section-title {
+margin-top: 2rem;
+}
+
+.itinerary-container {
+background-color: rgba(255, 255, 255, 0.6);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+width: 100%;
+}
