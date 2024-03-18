@@ -1,25 +1,55 @@
 {
-  "hash": "4692e483",
+  "hash": "c0f1e274",
   "configHash": "f335e31f",
-  "lockfileHash": "668e04cc",
-  "browserHash": "54e64d1b",
+  "lockfileHash": "fcfba310",
+  "browserHash": "0d7fa51c",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "14b305bf",
+      "fileHash": "21ddc8f1",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "80c73e20",
+      "fileHash": "65b8cb6f",
       "needsInterop": true
+    },
+    "bootstrap/dist/js/bootstrap.bundle.min": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "file": "bootstrap_dist_js_bootstrap__bundle__min.js",
+      "fileHash": "22462a57",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "44c09c5b",
+      "needsInterop": false
+    },
+    "react-datepicker": {
+      "src": "../../node_modules/react-datepicker/dist/es/index.js",
+      "file": "react-datepicker.js",
+      "fileHash": "0fc91fc6",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "fa7cc798",
+      "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-XFZ2DVVZ": {
-      "file": "chunk-XFZ2DVVZ.js"
+    "chunk-DXOUNB47": {
+      "file": "chunk-DXOUNB47.js"
+    },
+    "chunk-JBG67EE7": {
+      "file": "chunk-JBG67EE7.js"
+    },
+    "chunk-UV5CTPV7": {
+      "file": "chunk-UV5CTPV7.js"
     }
   }
 }
