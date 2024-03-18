@@ -73,6 +73,18 @@ nav {
     color: orange;
   }
 
+    /* Footer social media icons styling */
+
+.footer-icon {
+  color: orange; /* Default color */
+}
+
+.footer-icon:hover,
+.footer-icon:focus,
+.footer-icon:active {
+  color: purple !important; /* Color change on hover, focus, and active (click) */
+}
+
   .navbar {
     
   }
