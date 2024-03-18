@@ -19,13 +19,13 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-orange me-3">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="footer-icon me-3">
               <i className="bi bi-instagram fs-3"></i>
             </a>
-            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-orange me-3">
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="footer-icon me-3">
               <i className="bi bi-twitter fs-3"></i>
             </a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-orange">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="footer-icon">
               <i className="bi bi-facebook fs-3"></i>
             </a>
           </div>
@@ -41,3 +41,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
