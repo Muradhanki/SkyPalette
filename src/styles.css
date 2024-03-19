@@ -42,7 +42,6 @@ nav {
 
 
 
-
 * {
   box-sizing: border-box;
 }
@@ -179,4 +178,20 @@ padding: 20px;
 border-radius: 8px;
 box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 width: 100%;
+}
+
+.dropdown-select-container {
+margin-top: 30px; /* Adjust the space according to the design */
+}
+
+.btn-clear {
+background-color: orange !important; /* Inverted color scheme */
+color: purple !important;
+border-color: orange !important;
+}
+
+.btn-clear:hover, .btn-clear:focus, .btn-clear:active {
+background-color: purple !important; /* Hover state with original colors */
+color: orange !important;
+border-color: purple !important;
 }
