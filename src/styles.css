@@ -42,7 +42,6 @@ nav {
 
 
 
-
 * {
   box-sizing: border-box;
 }
@@ -180,3 +179,51 @@ border-radius: 8px;
 box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 width: 100%;
 }
+
+.dropdown-select-container {
+margin-top: 30px; /* Adjust the space according to the design */
+}
+
+.btn-clear {
+background-color: orange !important; /* Inverted color scheme */
+color: purple !important;
+border-color: orange !important;
+}
+
+.btn-clear:hover, .btn-clear:focus, .btn-clear:active {
+background-color: purple !important; /* Hover state with original colors */
+color: orange !important;
+border-color: purple !important;
+}
+
+/* About.css */
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px; /* Increased padding for more space around the content */
+  text-align: center; /* Center-align the content */
+  color: whitesmoke; /* Change the text color to a darker shade */
+}
+
+.about-heading {
+  font-size: 2.5em; /* Increased font size for the heading */
+  margin-bottom: 20px;
+}
+
+.about-subheading {
+  font-size: 1.8em; /* Increased font size for subheadings */
+  margin-top: 40px; /* Increased margin for better spacing */
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-size: 1.2em; /* Increased font size for text */
+  line-height: 1.6; /* Increased line height for better readability */
+  margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+
+
+
+
