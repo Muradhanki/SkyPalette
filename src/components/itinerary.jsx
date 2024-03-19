@@ -62,7 +62,7 @@
 //         <div className="mb-4">
 //           <h3 className="section-title">Leisure</h3>
 //           <p>Leisure activities and options in {destination.name}.</p>
-//         </div>
+//         </div>git pull 
 
 //         <div className="mb-4">
 //           <h3 className="section-title">Landmarks</h3>
@@ -100,6 +100,7 @@ const Itinerary = () => {
   const [wikiExtract, setWikiExtract] = useState('');
   const [openTripImageUrl, setOpenTripImageUrl] = useState('');
   const [airQuality, setAirQuality] = useState({});
+  const [culturalDetailsUrl, setCulturalDetailsUrl] = useState('');
 
   useEffect(() => {
     // Fetch image from Pixabay
@@ -109,10 +110,12 @@ const Itinerary = () => {
     // Fetch details from OpenTripMap
     if (xid) {
       fetchOpenTripDetails(xid);
+      fetchCulturalDetails(xid);
     }
     if (destination?.lat && destination?.lon) {
       fetchAirPollutionData(destination.lat, destination.lon);
     }
+
   }, [destination]);
 
   const fetchPixabayImage = () => {
@@ -144,6 +147,7 @@ const Itinerary = () => {
       .catch(error => console.error('Error fetching OpenTripMap details:', error));
   };
 
+
   const fetchAirPollutionData = (lat, lon) => {
     const API_KEY = '4a311bf45c785a430f6090826f0844cb';
     axios.get(`http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${API_KEY}`)
@@ -153,6 +157,18 @@ const Itinerary = () => {
       })
       .catch(error => console.error('Error fetching air pollution data:', error));
   };
+
+  const fetchCulturalDetails = (xid) => {
+    const apiKey = '5ae2e3f221c38a28845f05b68acc8b0fd95abbfe34a7353ee5151d82';
+    const lang = 'en';
+    axios.get(`https://api.opentripmap.com/0.1/${lang}/cultural/xid/${xid}?apikey=${apiKey}`)
+      .then(response => {
+        const culturalData = response.data;
+        setCulturalDetailsUrl(culturalData.wikipedia || ''); // Assuming cultural data has a Wikipedia link
+      })
+      .catch(error => console.error('Error fetching cultural details:', error));
+  };
+  
   // Remaining component logic...
 
   return (
@@ -166,8 +182,10 @@ const Itinerary = () => {
       {/* Additional content and buttons */}
 
       <div className="mb-4">
-        <h3 className="section-title">Leisure</h3>
-        <p>Leisure activities and options in {destination?.name}.</p>
+        <h3 className="section-title">Culture</h3>
+        {/* Image from Pixabay or OpenTripMap */}
+      <img src={culturalDetailsUrl || imageUrl} alt="Destination" className="img-fluid my-4" />
+        <p>Cultural activities and options in {destination?.name}.</p>
       </div>
 
       <div className="mb-4">
