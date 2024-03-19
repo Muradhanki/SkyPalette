@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import UserInputForm from './components/UserInputForm';
 import Results from './components/results';
 import Itinerary from './components/itinerary';
-
+import About from "./components/about";
 function App() {
   return (
     <Router>
@@ -17,6 +17,7 @@ function App() {
           <Route path="/" element={<UserInputForm />} />
           <Route path="/results" element={<Results />} />
           <Route path="/itinerary" element={<Itinerary />} /> {/* Now correctly refers to the lowercase filename */}
+          <Route path="/about" Component={About} />
         </Routes>
         <Footer />
       </div>
