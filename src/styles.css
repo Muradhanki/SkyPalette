@@ -98,6 +98,11 @@ color: purple !important; /* Color change on hover, focus, and active (click) */
 
 }
 
+.nav-link:hover,
+.nav-link:active {
+  color: orange !important; /* Change color on hover/focus/active */
+}
+
 .btn-custom {
   background-color: orange !important; 
   color: purple !important; 
