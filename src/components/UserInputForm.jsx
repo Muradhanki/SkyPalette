@@ -506,7 +506,7 @@ const UserInputForm = () => {
 
         <div className="mb-3">
           <label htmlFor="endDate" className="form-label">End Date:</label>
-          <DatePicker selected={endDate} onChange={date => setEndDate(date)} className="form-control" dateFormat="MMMM d, yyyy" />
+          <DatePicker selected={endDate} onChange={date => setEndDate(date)} className="form-control" dateFormat="MMMM d, yyyy"minDate={startDate} />
         </div>
 
              {/* Bootstrap Alert */}
