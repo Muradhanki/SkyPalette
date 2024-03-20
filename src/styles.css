@@ -20,7 +20,9 @@ nav {
 }
 
 .nav--title {
-}
+    visibility: visible;
+  }
+
 
 .nav--icon {
   height: 420px;
@@ -44,8 +46,9 @@ color: purple !important;
 
 
 .navbar {
-  
+  visibility: visible;
 }
+
 
 .nav-link {
   color: purple !important;
