@@ -23,13 +23,15 @@ nav {
 }
 
 .nav--title {
-    visibility: visible;
-  }
-
+  visibility: visible;
+ }
 
 .nav--icon {
-  height: 420px;
-  margin-top: 70px;
+  height: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+
 }
 
 .text-orange {
@@ -52,13 +54,11 @@ color: purple !important;
   visibility: visible;
 }
 
-
 .nav-link {
   color: purple !important;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 18px !important;
   margin-top: 25px;
-
 }
 
 .nav-link:hover,
@@ -126,7 +126,7 @@ padding: 20px;
 border-radius: 8px;
 box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 margin: 50px;
-width: 90%; 
+width: 90%;
 max-width: 500px;
 font-family: "Shippori Mincho B1", serif;
 font-weight: 100;
@@ -155,17 +155,17 @@ font-style: normal;
 }
 
 .dropdown-select-container {
-margin-top: 30px; 
+margin-top: 30px;
 }
 
 .btn-clear {
-background-color: orange !important;
+background-color: orange !important; /* Inverted color scheme */
 color: purple !important;
 border-color: orange !important;
 }
 
 .btn-clear:hover, .btn-clear:focus, .btn-clear:active {
-background-color: purple !important; 
+background-color: purple !important;
 color: orange !important;
 border-color: purple !important;
 }
@@ -175,24 +175,25 @@ border-color: purple !important;
 .about-container {
   max-width: 800px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 50px 20px; 
   text-align: center; 
-  color: whitesmoke;
+  color: whitesmoke; 
   background-color: rgba(128, 128, 128, 0.3);
+
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
 }
 
-
 .about-heading {
-  font-size: 2.5em; 
+  font-size: 2.5em; /* Increased font size for the heading */
   margin-bottom: 20px;
 }
 
 .about-subheading {
   font-size: 1.8em; 
-  margin-top: 40px; 
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 
@@ -201,6 +202,15 @@ border-color: purple !important;
   line-height: 1.6; 
   margin-bottom: 20px; 
 }
+.about-image {
+  max-width: 250px;
+  height: auto;
+}
+.footer-image {
+  max-width: 250px; 
+  height: auto;
+}
+
 
 /*contact form*/
 
@@ -212,6 +222,7 @@ border-color: purple !important;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
   display: flex; 
   flex-direction: column; 
   margin-left: auto; 
@@ -225,6 +236,20 @@ border-color: purple !important;
 
 .contact-title {
   color: purple;
+}
+.flex-container {
+  display: flex;
+  list-style-type: none; /* Removes default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-item {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Change link color as needed */
 }
 
 @media screen and (max-width: 650px) {
