@@ -1,3 +1,46 @@
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+    margin: 0;
+}
+
+.nav--logo_text {
+    margin-right: auto;
+    color: purple;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav--title {
+    color: purple;
+    font-weight: 600;
+}
+
+.nav--icon {
+    height: 30px;
+    margin-right: 7px;
+} */
+
+
+
+/* NEW natt5 */
+
+
 
 * {
   box-sizing: border-box;
@@ -20,9 +63,7 @@ nav {
 }
 
 .nav--title {
-    visibility: visible;
-  }
-
+}
 
 .nav--icon {
   height: 420px;
@@ -35,20 +76,19 @@ nav {
 
 /* Footer social media icons styling */
 .footer-icon {
-color: orange; 
+color: orange; /* Default color */
 }
 
 .footer-icon:hover,
 .footer-icon:focus,
 .footer-icon:active {
-color: purple !important; 
+color: purple !important; /* Color change on hover, focus, and active (click) */
 }
 
 
 .navbar {
-  visibility: visible;
+  
 }
-
 
 .nav-link {
   color: purple !important;
@@ -56,11 +96,6 @@ color: purple !important;
   font-size: 18px !important;
   margin-top: 25px;
 
-}
-
-.nav-link:hover,
-.nav-link:active {
-  color: orange !important;
 }
 
 .btn-custom {
@@ -123,12 +158,12 @@ padding: 20px;
 border-radius: 8px;
 box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 margin: 50px;
-width: 90%; 
+width: 90%; /* Adjust the width as needed */
 max-width: 500px;
 }
 
 .destination-container {
-margin-bottom: 30px;
+margin-bottom: 30px; /* Adjust the spacing as needed */
 }
 
 /* itinerary page styling */
@@ -146,17 +181,17 @@ width: 100%;
 }
 
 .dropdown-select-container {
-margin-top: 30px; 
+margin-top: 30px; /* Adjust the space according to the design */
 }
 
 .btn-clear {
-background-color: orange !important;
+background-color: orange !important; /* Inverted color scheme */
 color: purple !important;
 border-color: orange !important;
 }
 
 .btn-clear:hover, .btn-clear:focus, .btn-clear:active {
-background-color: purple !important; 
+background-color: purple !important; /* Hover state with original colors */
 color: orange !important;
 border-color: purple !important;
 }
@@ -166,57 +201,32 @@ border-color: purple !important;
 .about-container {
   max-width: 800px;
   margin: 0 auto;
-  margin-top: 100px;
-  padding: 50px 20px; 
-  text-align: center; 
-  color: whitesmoke;
-  background-color: rgba(128, 128, 128, 0.3);
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 50px 20px; /* Increased padding for more space around the content */
+  text-align: center; /* Center-align the content */
+  color: whitesmoke; /* Change the text color to a darker shade */
 }
 
-
 .about-heading {
-  font-size: 2.5em; 
+  font-size: 2.5em; /* Increased font size for the heading */
   margin-bottom: 20px;
 }
 
 .about-subheading {
-  font-size: 1.8em; 
-  margin-top: 40px; 
+  font-size: 1.8em; /* Increased font size for subheadings */
+  margin-top: 40px; /* Increased margin for better spacing */
   margin-bottom: 10px;
 }
 
 .about-text {
-  font-size: 1.2em; 
-  line-height: 1.6; 
-  margin-bottom: 20px; 
+  font-size: 1.2em; /* Increased font size for text */
+  line-height: 1.6; /* Increased line height for better readability */
+  margin-bottom: 20px; /* Increased margin for better spacing */
+}
+.about-image {
+  max-width: 250px; /* Set the maximum width of the image */
+  height: auto; /* Maintain the aspect ratio */
 }
 
-/*contact form*/
-
-.contact-container {
-  
-  margin-top: 100px;
-  max-width: 800px;
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  display: flex; 
-  flex-direction: column; 
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-
-.form-label {
-  color: purple;
-}
-
-.contact-title {
-  color: purple;
-}
 
 
 
