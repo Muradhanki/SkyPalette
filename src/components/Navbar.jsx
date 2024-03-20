@@ -31,6 +31,9 @@ function Navbar() {
             <li className="nav-item">
               <Link to="/about" className="nav-link">ABOUT</Link>
             </li>
+            <li className="nav-item">
+                  <Link to="/contact" className="nav-link">CONTACT</Link> {/* Added Contact link */}
+              </li>
           </ul>
         </div>
       </div>
