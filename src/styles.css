@@ -163,12 +163,12 @@ padding: 20px;
 border-radius: 8px;
 box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 margin: 50px;
-width: 90%; /* Adjust the width as needed */
+width: 90%; 
 max-width: 500px;
 }
 
 .destination-container {
-margin-bottom: 30px; /* Adjust the spacing as needed */
+margin-bottom: 30px;
 }
 
 /* itinerary page styling */
@@ -186,17 +186,17 @@ width: 100%;
 }
 
 .dropdown-select-container {
-margin-top: 30px; /* Adjust the space according to the design */
+margin-top: 30px; 
 }
 
 .btn-clear {
-background-color: orange !important; /* Inverted color scheme */
+background-color: orange !important;
 color: purple !important;
 border-color: orange !important;
 }
 
 .btn-clear:hover, .btn-clear:focus, .btn-clear:active {
-background-color: purple !important; /* Hover state with original colors */
+background-color: purple !important; 
 color: orange !important;
 border-color: purple !important;
 }
@@ -206,26 +206,31 @@ border-color: purple !important;
 .about-container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 50px 20px; /* Increased padding for more space around the content */
-  text-align: center; /* Center-align the content */
-  color: whitesmoke; /* Change the text color to a darker shade */
+  margin-top: 100px;
+  padding: 50px 20px; 
+  text-align: center; 
+  color: whitesmoke;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+
 .about-heading {
-  font-size: 2.5em; /* Increased font size for the heading */
+  font-size: 2.5em; 
   margin-bottom: 20px;
 }
 
 .about-subheading {
-  font-size: 1.8em; /* Increased font size for subheadings */
-  margin-top: 40px; /* Increased margin for better spacing */
+  font-size: 1.8em; 
+  margin-top: 40px; 
   margin-bottom: 10px;
 }
 
 .about-text {
-  font-size: 1.2em; /* Increased font size for text */
-  line-height: 1.6; /* Increased line height for better readability */
-  margin-bottom: 20px; /* Increased margin for better spacing */
+  font-size: 1.2em; 
+  line-height: 1.6; 
+  margin-bottom: 20px; 
 }
 
 
