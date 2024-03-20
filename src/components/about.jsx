@@ -9,9 +9,9 @@ const About = () => {
             <p>1. Answer a series of questions about your travel preferences, such as preferred climate, activities, budget, etc.</p>
             <p>2. Our algorithm analyses your responses and matches you with destinations that best fit your preferences.</p>
             <p>3. Explore recommended destinations and plan your next adventure!</p>
-            <h2>Our Mission.</h2>
+            <h2>Our Mission</h2>
             <p>At Sky Palette, our mission is to make travel planning easy, personalised, and enjoyable for everyone. We believe that everyone deserves to experience the joy of discovering new places and cultures.</p>
-            <h2>Contact Us.</h2>
+            <h2>Contact Us</h2>
             <p>Please find our social media icons below if you would like to contact us.</p>
         </div>
     );
