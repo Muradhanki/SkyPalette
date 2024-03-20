@@ -222,6 +222,11 @@ border-color: purple !important;
   line-height: 1.6; /* Increased line height for better readability */
   margin-bottom: 20px; /* Increased margin for better spacing */
 }
+.about-image {
+  max-width: 250px; /* Set the maximum width of the image */
+  height: auto; /* Maintain the aspect ratio */
+}
+
 
 
 
