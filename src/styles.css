@@ -27,8 +27,11 @@ nav {
  }
 
 .nav--icon {
-  height: 420px;
-  margin-top: 70px;
+  height: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+
 }
 
 .text-orange {
@@ -234,8 +237,20 @@ border-color: purple !important;
 .contact-title {
   color: purple;
 }
+.flex-container {
+  display: flex;
+  list-style-type: none; /* Removes default list styles */
+  padding: 0; /* Remove default padding */
+}
 
+.nav-item {
+  margin-right: 10px; /* Adjust as needed */
+}
 
+.nav-link {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Change link color as needed */
+}
 
 
 
