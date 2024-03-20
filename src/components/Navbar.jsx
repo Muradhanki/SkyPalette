@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-warning">
+    <nav className="navbar navbar-expand-lg navbar-light bg-orange">
       <div className="container">
         <Link to="/" className="navbar-brand">
           <img src="/images/skypalette-logo.png" className="nav--icon" alt="Logo" />
