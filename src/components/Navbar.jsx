@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-orange">
- natt5-branch
       <div className="container">
         <Link to="/" className="navbar-brand">
           <img src="/images/skypalette-logo.png" className="nav--icon" alt="Logo" />
@@ -23,8 +22,6 @@ function Navbar() {
               </li>
           </ul>
         </div>
-
- main
       </div>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
