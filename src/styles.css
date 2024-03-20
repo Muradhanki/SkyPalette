@@ -200,8 +200,8 @@ border-color: purple !important;
   margin-bottom: 20px; 
 }
 .about-image {
-  max-width: 250px; /* Set the maximum width of the image */
-  height: auto; /* Maintain the aspect ratio */
+  max-width: 250px;
+  height: auto;
 }
 .footer-image {
   max-width: 250px; 
