@@ -561,7 +561,7 @@ const UserInputForm = () => {
 
       </form>
     </div>
-  );
+);
 };
 
 export default UserInputForm;

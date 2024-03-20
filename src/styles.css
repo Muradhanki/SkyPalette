@@ -53,6 +53,9 @@ body {
   background-attachment: fixed; 
   margin: 0; 
   height: 100%; 
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 nav {
@@ -160,6 +163,9 @@ box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 margin: 50px;
 width: 90%; /* Adjust the width as needed */
 max-width: 500px;
+font-family: "Shippori Mincho B1", serif;
+font-weight: 100;
+font-style: normal;
 }
 
 .destination-container {
@@ -178,6 +184,9 @@ padding: 20px;
 border-radius: 8px;
 box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 width: 100%;
+font-family: "Shippori Mincho B1", serif;
+font-weight: 100;
+font-style: normal;
 }
 
 .dropdown-select-container {
