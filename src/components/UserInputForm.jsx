@@ -69,7 +69,7 @@ const UserInputForm = () => {
 
     const fetchSuggestions = async () => {
       try {
-        const response = await axios.get(`http://api.openweathermap.org/geo/1.0/direct`, {
+        const response = await axios.get(`https://api.openweathermap.org/geo/1.0/direct`, {
           params: {
             q: destination,
             limit: 5,
