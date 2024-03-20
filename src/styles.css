@@ -235,6 +235,11 @@ border-color: purple !important;
   max-width: 250px; /* Set the maximum width of the image */
   height: auto; /* Maintain the aspect ratio */
 }
+.footer-image {
+  max-width: 250px; 
+  height: auto;
+}
+
 
 
 
