@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="about-container">
+        <div className="about-container">   
             <h1>About Sky Palette</h1>
             <p>Embark on your next adventure with Sky Palette, the ultimate holiday app that transforms indecision into excitement. Say goodbye to endless research and hesitation – our  platform empowers you to discover the perfect destinations tailored to your unique preferences. By simplifying the travel planning process, Sky Palette allows you to embrace spontaneity and unlock unforgettable holidays.</p>
             <h2>How It Works</h2>
