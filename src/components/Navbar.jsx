@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-orange">
       <div className="container">
         <Link to="/" className="navbar-brand">
-          <img src="./src/assets/images/skypalette-logo.png" className="nav--icon" alt="Logo" />
+          <img src="/images/skypalette-logo.png" className="nav--icon" alt="Logo" />
       
         </Link>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
