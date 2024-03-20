@@ -8,7 +8,7 @@ function Contact() {
         email: '',
         message: '',
     });
-    const [showThankYouAlert, setShowThankYouAlert] = useState(false); // New state to control the alert visibility
+    const [showThankYouAlert, setShowThankYouAlert] = useState(false);
 
     const handleChange = (e) => {
         setFormData({
@@ -19,23 +19,23 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        setShowThankYouAlert(true); // Show the thank you alert
-        // Reset the form fields
+        setShowThankYouAlert(true); 
+    
         setFormData({
             name: '',
             email: '',
             message: '',
         });
-        // Optionally, hide the alert after some time
+       
         setTimeout(() => {
             setShowThankYouAlert(false);
-        }, 5000); // Hides the alert after 5 seconds
+        }, 5000); 
     };
 
     return (
         <div className="contact-container">
             <h1 className="contact-title">Contact Us</h1>
-            {/* Conditionally render the Bootstrap alert */}
+         
             {showThankYouAlert && (
                 <div className="alert alert-success" role="alert">
                     Thank you for reaching out!
