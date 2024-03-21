@@ -5,8 +5,13 @@ SkyPallet is a application built using React and Node.js, designed to help users
 # Technologies Used:
 * React
 * Node.js
-* Css
 * Bootstrap
+* React Router
+* Axios
+* Pixabay API
+* OpenTripMap API
+* CSS
+* Netlify
 
 # Features:
 * Select preferred travel date, destination and activity type.
