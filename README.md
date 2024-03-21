@@ -6,7 +6,7 @@ SkyPallet is a application built using React and Node.js, designed to help users
 As A developer,
 I want to create an application for travel enthusiasts with a desire for personalised experiences.
 I want to create an application to plan my ideal travel activities,
-So that I can effortlessly create a tailored itinerary based on my preferences.
+So that I can effortlessly create a tailored itinerary based on my preferences.git
 
 # Technologies Used:
 * React

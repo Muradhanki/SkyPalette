@@ -25,8 +25,11 @@ const Footer = () => {
             <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="footer-icon me-3">
               <i className="bi bi-twitter fs-3"></i>
             </a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="footer-icon">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="footer-icon me-3">
               <i className="bi bi-facebook fs-3"></i>
+            </a>
+            <a href="https://github.com/Muradhanki/SkyPalette" target="_blank" rel="noopener noreferrer" className="footer-icon">
+              <i className="bi bi-github fs-3"></i>
             </a>
           </div>
         </div>
