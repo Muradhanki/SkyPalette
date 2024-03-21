@@ -20,6 +20,11 @@ SkyPallet is a application built using React and Node.js, designed to help users
 * User authentication and authorization for managing personal travel preferences.
 * Fully responsive design for seamless use on any device.
 
+# Screenshots:
+![Home Page](<src/assets/images/SS home.png>)
+![About Page](<src/assets/images/SS about.png>)
+![Contact Page](<src/assets/images/SS contact.png>)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
