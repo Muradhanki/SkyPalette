@@ -277,7 +277,62 @@ border-color: purple !important;
   color: black; /* Change link color as needed */
 }
 
+@media screen and (max-width: 650px) {
+  .navbar {
+    padding: 10px; /* Adjust padding for smaller screens */
+    height: auto; /* Allow height to adjust automatically */
+  }
+  
+  .navbar-collapse {
+    display: none; /* Hide navbar items by default */
+    flex-basis: 100%;
+  }
+  
+  .navbar-toggler {
+    display: block; /* Display hamburger icon */
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none; /* Remove outline on focus/active */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: purple; /* Color of hamburger icon */
+  }
+  
+  .navbar-toggler-icon:focus,
+  .navbar-toggler-icon:active {
+    outline: none; /* Remove outline on focus/active */
+  }
+  
+  .navbar-toggler:hover .navbar-toggler-icon {
+    background-color: orange; /* Change color on hover */
+  }
+  
+  .navbar-collapse.show {
+    display: flex; /* Show navbar items when toggler is clicked */
+  }
+  
+  .navbar-nav {
+    flex-direction: column; /* Arrange items vertically */
+    text-align: center; /* Center align items */
+  }
+  
+  .nav-item {
+    margin: 5px 0; /* Adjust margin between items */
+  }
+  
+  .nav-link {
+    padding: 10px; /* Adjust padding for better touch target */
+  }
+}
 
 
+@media screen and (max-width: 991px) {
+.nav--icon {
+  display: none;
+  }
+}
 
-
+/* //Redundant code */
