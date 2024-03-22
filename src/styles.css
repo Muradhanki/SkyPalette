@@ -143,17 +143,6 @@ margin-bottom: 30px;
 margin-top: 2rem;
 }
 
-/* .itinerary-container {
-background-color: rgba(255, 255, 255, 0.6);
-padding: 20px;
-border-radius: 8px;
-box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-width: 100%;
-font-family: "Shippori Mincho B1", serif;
-font-weight: 100;
-font-style: normal;
-} */
-
 .dropdown-select-container {
 margin-top: 30px;
 }
@@ -186,7 +175,7 @@ border-color: purple !important;
 }
 
 .section-title {
-  color: purple; 
+  color: white; 
 }
 
 .destination-title {
@@ -212,7 +201,7 @@ border-color: purple !important;
 }
 
 .about-heading {
-  font-size: 2.5em; /* Increased font size for the heading */
+  font-size: 2.5em; 
   margin-bottom: 20px;
 }
 
@@ -264,67 +253,67 @@ border-color: purple !important;
 }
 .flex-container {
   display: flex;
-  list-style-type: none; /* Removes default list styles */
-  padding: 0; /* Remove default padding */
+  list-style-type: none; 
+  padding: 0; 
 }
 
 .nav-item {
-  margin-right: 10px; /* Adjust as needed */
+  margin-right: 10px; 
 }
 
 .nav-link {
-  text-decoration: none; /* Remove underline from links */
-  color: black; /* Change link color as needed */
+  text-decoration: none; 
+  color: black; 
 }
 
 @media screen and (max-width: 650px) {
   .navbar {
-    padding: 10px; /* Adjust padding for smaller screens */
-    height: auto; /* Allow height to adjust automatically */
+    padding: 10px; 
+    height: auto; 
   }
   
   .navbar-collapse {
-    display: none; /* Hide navbar items by default */
+    display: none; 
     flex-basis: 100%;
   }
   
   .navbar-toggler {
-    display: block; /* Display hamburger icon */
+    display: block; 
   }
   
   .navbar-toggler:focus,
   .navbar-toggler:active {
-    outline: none; /* Remove outline on focus/active */
+    outline: none; 
   }
   
   .navbar-toggler-icon {
-    background-color: purple; /* Color of hamburger icon */
+    background-color: purple; 
   }
   
   .navbar-toggler-icon:focus,
   .navbar-toggler-icon:active {
-    outline: none; /* Remove outline on focus/active */
+    outline: none; 
   }
   
   .navbar-toggler:hover .navbar-toggler-icon {
-    background-color: orange; /* Change color on hover */
+    background-color: orange; 
   }
   
   .navbar-collapse.show {
-    display: flex; /* Show navbar items when toggler is clicked */
+    display: flex; 
   }
   
   .navbar-nav {
-    flex-direction: column; /* Arrange items vertically */
-    text-align: center; /* Center align items */
+    flex-direction: column; 
+    text-align: center; 
   }
   
   .nav-item {
-    margin: 5px 0; /* Adjust margin between items */
+    margin: 5px 0; 
   }
   
   .nav-link {
-    padding: 10px; /* Adjust padding for better touch target */
+    padding: 10px; 
   }
 }
 
@@ -334,5 +323,3 @@ border-color: purple !important;
   display: none;
   }
 }
-
-/* //Redundant code */
