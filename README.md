@@ -1,21 +1,23 @@
 # SkyPalette
 
 ## Description
-SkyPallet is a application built using React and Node.js, designed to help users plan their ideal travel activities based on their preferences. With SkyPallet, users can select their desired date, destination and activity type to generate the perfect itinerary for their trip. 
+SkyPalette is a application built using React and Node.js, designed to help users plan their ideal travel activities based on their preferences. With SkyPallet, users can select their desired date, destination and activity type to generate the perfect itinerary for their trip. 
 
 ## Table of Contents
 - [User Story](#user-story)
-- [Installation](#installation)
+- [Getting Started](#getting-started)
+ - [Installation](#installation)
 - [Screenshots](#screenshots)
-- [Usage](#usage)
-- [Credits](#credits)
 - [Deployment](#deployment)
-- [How to Contribute](#how-to-contribute)
-  - [Contributions](#contributions)
-  - [Starred Project](#starred-project)
-- [Tests](#tests)
-- [Questions](#questions)
+- [Usage](#usage)
+- [Built With](#built-with)
+ - [React + Vite](#react--vite)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+  - [Creating A Pull Request](#creating-a-pull-request)
 - [License](#license)
+- [Authors](#authors)
+- [Credits](#credits)
 - [Badges](#badges)
 
 ## User Story
@@ -30,22 +32,16 @@ Our application, Sky Palette, offers users personalised travel destinations base
 ## Getting Started
 To install the necessary dependencies, users can clone the repository from GitHub and install the project by following these steps:
 
-
 To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
 1. Fire up your GitBash console and copy the line below
 
-2. 
-git clone git@github.com:Muradhanki/Team-Profile-Generator.git
+2. git clone git@github.com:Muradhanki/SkyPalette.git
 
-![Screenshot](https://github.com/Muradhanki/Team-Profile-Generator/blob/main/assets/images/git%20clone%20ss.jpg "Git Bash Installation")
+3. - Navigate to your terminal and use the following command "npm install"
 
-3. - Navigate to your terminal and use the following command "npm install create-react-app".
-```bash
-npm install create-react-app
-```
 4. Navigate to your terminal and use the following command "npm start":
 ```bash
 npm start
@@ -55,13 +51,16 @@ or
 npm run dev
 ```
 
-
 ## Screenshots
-![Team Generator User Input Screenshot](https://github.com/Muradhanki/Team-Profile-Generator/blob/main/assets/images/nodeindexjs.jpg)
-*The screenshot illustrate the command-line interaction with the Team Profile Generator application.*  
 
-![Team HTML Generator Screenshot](https://github.com/Muradhanki/Team-Profile-Generator/blob/main/assets/images/screen%20grab.jpg)
-*This screenshot showcases the HTML output of the application, enhanced with added styling for a visually appealing presentation.*
+![SkyPalette Travel App Home Page Screenshot](./src/assets/images/screenshotskypalettehome.png)
+*This screenshot showcases the Home Page of the application.*
+
+## Deployment
+
+The SkyPalette application is currently deployed and hosted on Netlify, a cloud hosting platform that offers seamless integration with Git repositories for continuous deployment.
+
+To visit the SkyPalette application, simply go to [https://skypalette.netlify.app](https://skypalette.netlify.app).
 
 ## Usage
 
@@ -73,17 +72,26 @@ npm run dev
 
 ## Built With
 
-Languages that has been used to code:
+Libraries, Packages and Technologies that have been used to code:
 
 * React
 * Node.js
 * Bootstrap
+* Bootstrap Icons
 * React Router
 * Axios
-* Pixabay API
 * OpenTripMap API
+* OpenWeatherMap API
+* React DatePicker
+* React Autosuggest
+* Local Storage (client-side data management)
 * CSS
-* Netlify
+* HTML
+* JavaScript
+* Vite
+* Git
+* VS Code
+* Deployment via Netlify
 
 ### React + Vite
 
@@ -121,17 +129,12 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Muradhanki/S
 
 ## Authors
 
-* **Muradhan KILINC** - *EdX Front End Development Bootcamp Student* - [Muradhan KILINC](https://github.com/Muradhanki) - **
-* **XXXXXXXXXXXXX INSERT YOUR GIT HUB HERE NATALIA, MILTON, RAHYAN, HANNAH, RICHARD
-issues/new/choose) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/Muradhanki/SkyPalette/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+* **Muradhan KILINC** - *EdX Front End Development Bootcamp Student* - [Muradhan KILINC](https://github.com/Muradhanki)
+* **Natalija Bobrovska** - *EdX Front End Development Bootcamp Student* - [Natt5](https://github.com/Natt5)
 
-### Creating A Pull Request
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## Badges
+
+[![GitHub repo](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/Natt5/challenge11-professional-README-generator)
+
+[![Made with Visual Studio Code](https://img.shields.io/badge/Made%20with-Visual%20Studio%20Code-1f425f.svg)](https://code.visualstudio.com/)
